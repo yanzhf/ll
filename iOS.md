@@ -7,3 +7,12 @@
 > * User Interface Style  --Light      禁止黑暗模式
 > * App Transport Security Settings   允许http的请求
 > * Application supports iTunes file sharing   共享文件配置 
+
+
+###iOS创建framework
+![11](11.png)
+
+
+**配置Build Setting 的Mach-O Type 为Static Library  
+
+
