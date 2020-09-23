@@ -1,0 +1,25 @@
+PODS:
+  - TinyKern (1.0.60-BETA):
+    - TinyMediator (~> 1.0.0-debug)
+    - TinyProtocol (~> 1.0.0-debug)
+  - TinyMediator (1.0.6-debug)
+  - TinyProtocol (1.0.33-BETA)
+
+DEPENDENCIES:
+  - TinyKern (~> 1.0.16-debug)
+  - TinyProtocol (~> 1.0.0-debug)
+
+SPEC REPOS:
+  http://e-git.yfb.sunline.cn/TinyBuilder/tiny-app/tiny-spec/tiny-spec:
+    - TinyKern
+    - TinyMediator
+    - TinyProtocol
+
+SPEC CHECKSUMS:
+  TinyKern: 3ec1a0cba46337326d36a95d157a0d25303e1a3e
+  TinyMediator: 934e7d9b4a7631131c70bacd11bd038d7aebb731
+  TinyProtocol: f9ae66b620cc042411b0cc139aa8631af13bf297
+
+PODFILE CHECKSUM: a1766a66ac1e7d0a91699cc381b88ff25d54abd2
+
+COCOAPODS: 1.9.1
