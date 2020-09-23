@@ -40,11 +40,13 @@ typedef void (^openMicroAppBlock) (NSString *_Nullable);
 
 /// 添加我的微应用
 /// @param microKey 微应用的唯一id
-- (void)addMicroApp:(NSString *)microKey callback:(nonnull void(^)(NSError *_Nullable))callback;
+/// @param params 其他参数  flag 0  添加到首页
+- (void)addMicroApp:(NSString *)microKey params:(NSMutableDictionary *_Nullable)params callback:(nonnull void(^)(NSError *_Nullable))callback;
 
 /// 移除我的微应用
 /// @param microKey 微应用的唯一ID
-- (void)removeMicroApp:(NSString *)microKey callback:(nonnull void(^)(NSError *_Nullable))callback;
+/// @param params 其他参数  flag 0  从首页移除
+- (void)removeMicroApp:(NSString *)microKey params:(NSMutableDictionary *_Nullable)params callback:(nonnull void(^)(NSError *_Nullable))callback;
 
 /// 微应用信息回调
 /// @param callback 回调信息

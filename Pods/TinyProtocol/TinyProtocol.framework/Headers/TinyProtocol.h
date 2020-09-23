@@ -27,4 +27,5 @@ FOUNDATION_EXPORT const unsigned char TinyProtocolVersionString[];
 #import <TinyProtocol/TinyUINetworkProtocol.h>
 #import <TinyProtocol/TinyTmlProtocol.h>
 #import <TinyProtocol/TinyPasteboardProtocol.h>
+#import <TinyProtocol/TinyTaskCenterProtocol.h>
 

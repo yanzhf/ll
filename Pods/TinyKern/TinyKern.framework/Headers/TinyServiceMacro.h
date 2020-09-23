@@ -74,6 +74,12 @@ do { \
     _Pragma("clang diagnostic pop") \
 } while (0)
 
+#ifndef __OPTIMIZE__
+#define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#define NSLog(...){}
+#endif
+
 #endif /* TinyServiceMacro_h */
 
 

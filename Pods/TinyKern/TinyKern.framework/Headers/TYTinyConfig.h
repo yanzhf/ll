@@ -61,7 +61,7 @@ NS_ASSUME_NONNULL_BEGIN
 #define kSecAttrAccountClientPassKey @"secAccountPass"
 
 #define kResourceHudPathKey @"resourceHud"
-
+#define kimageTbsPathKey @"imageTbs"
 
 //HTTPS双向验证证书密码
 #define  kHTTPSAuthoAuthoritationPass @"sunline"
@@ -179,6 +179,8 @@ static const NSString *kBoxModelB = @"boxModelB";
 - (NSString *)rootCheck;//true (默认) 越狱检测  false关闭
 
 - (NSString *)resourceHudPath;
+
+- (NSString *)imageTbsPath;
 
 /// 应用资源文件夹
 - (NSString *)appResourceDirectoryName;

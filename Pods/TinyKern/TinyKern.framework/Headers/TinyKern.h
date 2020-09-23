@@ -35,6 +35,7 @@ FOUNDATION_EXPORT const unsigned char TinyKernVersionString[];
 #import <TinyKern/NSString+PathExtension.h>
 #import <TinyKern/NSURL+FileExtension.h>
 #import <TinyKern/UIImage+Effect.h>
+#import <TinyKern/UIImage+Watermark.h>
 
 // config
 #import <TinyKern/TYAppInfo.h>
