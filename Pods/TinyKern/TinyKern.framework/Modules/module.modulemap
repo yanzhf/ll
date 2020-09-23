@@ -1,0 +1,6 @@
+framework module TinyKern {
+  umbrella header "TinyKern.h"
+
+  export *
+  module * { export * }
+}
