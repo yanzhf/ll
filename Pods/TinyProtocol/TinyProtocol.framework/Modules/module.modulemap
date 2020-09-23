@@ -1,6 +1,0 @@
-framework module TinyProtocol {
-  umbrella header "TinyProtocol.h"
-
-  export *
-  module * { export * }
-}
