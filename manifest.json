@@ -1,0 +1,17 @@
+{
+	"pluginName": "TinyBirdGame",
+    "projectName":"TinyBirdGame",
+	"version": "1.0.0",
+	"flag": "0",
+	"pluginUrl": "https://p.mtiny.cn:9443/document3/guide/",
+	"dependencies": [
+		"TinyBirdGame,1.0.0"
+	],
+	"appType": "1",
+	"describe": "小游戏",
+	"permission": [
+		"NSCameraUsageDescription"
+    ],
+	"auths": [],
+    "pluginType":"1"
+}

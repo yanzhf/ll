@@ -1,0 +1,6 @@
+framework module TinyMediator {
+  umbrella header "TinyMediator.h"
+
+  export *
+  module * { export * }
+}
